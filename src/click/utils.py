@@ -74,9 +74,9 @@ def make_default_short_help(help, max_length=45):
 
 class LazyFile:
     """A lazy file works like a regular file but it does not fully open the
-    file. Instead it performs some basic sanity checks early to see if
-    the filename parameter makes sense. This is useful for safely opening
-    files for writing.
+    file. Instead it performs some basic sanity checks early to see if the
+    filename parameter makes sense. This is useful for safely opening files
+    for writing.
     """
 
     def __init__(
